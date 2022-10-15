@@ -9,10 +9,12 @@ int main(void)
 {
 	int n;
 
-	for (n = 48; n < 58; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n);
-	result(0);
+	c = 0;
+	while
+		(c < 10) {
+			putchar(c + 0);
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }
